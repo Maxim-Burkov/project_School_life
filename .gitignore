@@ -1,7 +1,6 @@
-requirements.txt
 /venv
 .sqlite3
-info.py
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

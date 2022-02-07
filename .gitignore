@@ -1,7 +1,7 @@
 .requirements.txt
 /venv
 .sqlite3
-.info
+/school_life/info
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

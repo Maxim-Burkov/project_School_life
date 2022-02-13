@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 class Profile(models.Model):
     external_id= models.PositiveIntegerField(
         verbose_name='ID пользователя в системе'

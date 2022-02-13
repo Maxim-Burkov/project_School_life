@@ -4,6 +4,10 @@ from.forms import ProfileForm
 from .models import Profile
 from .models import Homework
 
+profile = Profile
+homework = Homework
+
+
 @admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
     list_display = ['id', 'external_id', 'name']
